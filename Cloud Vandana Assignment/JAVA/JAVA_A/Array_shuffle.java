@@ -8,7 +8,7 @@ public class Array_shuffle {
     public static void shuffleArray(int[] array) {
         int n = array.length;
         for (int i = n - 1; i > 0; i--) {
-            int j = (int) (Math.random() * (i + 1)); // Generate a random index between 0 and i, inclusive
+            int j = (int) (Math.random() * (i + 1)); 
             swap(array, i, j);
         }
     }
